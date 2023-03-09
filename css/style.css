@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+body {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  background: none;
+  box-shadow: none;
+  border: 0;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  height: 100vh;
+  z-index: -1;
+}
+
+#login-form {
+  padding: 100px 0 20px;
+  text-align: center;
+}
+
+#login-form input, #login-form button {
+  font-size: 40px;
+}
+
+#clock {
+  text-align: center;
+  font-size: 100px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+}
+
+#quote span {
+  display: block;
+  margin-top: 10px;
+
+}
